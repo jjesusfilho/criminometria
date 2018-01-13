@@ -1,0 +1,136 @@
+---
+output: 
+  pdf_document:
+    keep_tex: true
+    fig_caption: yes
+    latex_engine: pdflatex
+    template: syllabus-template.tex
+geometry: margin=1in
+
+title: "Análise quantitativa de processos criminais"
+author: José de Jesus Filho
+date: "Janeiro de 2018"
+
+email: "jjesusfilho@gmail.com"
+web: "josejesus.info"
+telefone: "(11)98522-0210"
+endereco: "Rua Waldemar Adelino da Silva, 30"
+cep: "São Paulo - SP CEP 02929-020"
+CNPJ: "23.268.449/0001-30"
+fontfamily: mathpazo
+fontsize: 12pt
+header-includes:
+   - \linespread{1.05}
+---
+
+
+# Ementa
+
+O curso irá introduzir a profissionais e estudantes de direito uma metodologia para obter e analisar dados dos processos judiciais criminais dos tribunais estaduais e federais. Inicialmente, serão introduzidos aos fundamentos teóricos do realismo jurídico.  os participantes irão familiarizar-se com a linguagem de programação R e, num segundo momento, irão apender técnicas de raspagem de dados na web (webscraping), processamento de linguagem natural (natural languange processing-NLP), limpeza e organização de base de dados. Na última etapa, os participantes aprenderão as técnicas de análise descritiva e preditiva de dados jurídicos.
+
+O curso será eminentemente prático, as bases teóricas somente serão fornecidas na medida em que sirvam para elucidar conceitos imprecindíveis para a compreensão das operações realizadas.
+
+
+# Programa do curso
+
+## Aspectos teóricos
+
+1. Paradigmas de interpretação do comportamento judicial
+2. Diferenças e complementariedade na pesquisa quanti e quali no direito
+3. Introdução à jurimetria
+4. Introdução à criminometria
+
+## Introdução ao R
+
+1. Objetos no R: números e vetores
+2. Outros objetos no R: fatores no R
+3. Outros objetos no R: caracteres
+4. Outros objetos no R: matrizes
+5. Outros objetos no R: listas e data frames
+6. Importando  dados para o R
+7. Exportando dados do R 
+7. Execução condicionada: ifelse
+8. Execução condicionada: loops: for, repeat, while
+9. Noções de distribuições probabilísticas
+10. Estatística básica: média, mediana, moda, variância,
+desvio padrão, erro padrão
+11. Criando funções no R
+
+## Coletando dados dos tribunais de justiça
+
+1. Noções de html, xml, json e css
+2. Procotolo http
+3. Noção de ajax
+4. Requisitando dados da web: httr e rvest
+5. Extraindo conteúdo da página: rvest,  xml2, css e xpath
+6. Extraindo conteúdos dinâmicos: RSelenium
+7. Baixando arquivos da web: pdf, csv, excel
+
+## Manuseio de textos
+
+1. Introdução ao processamento de linguagem natural
+2. Conversão e importação dos textos
+3. Expressões regulares
+4. Extraindo informações relevantes das peças processuais
+5. Tokenização, lemanenização, kwic e outras técnicas de manuseio de textos
+6. Estruturando textos em tabelas,  planilhas e matrizes
+
+## Manuseio da base de dados
+1. Introdução ao tidyverse
+2. Manuseio de dados com dplyr
+3. Programação funcional no R com purrr
+4. Manuseio de datas: lubridate
+5. Manuseio de fatores: forcats
+6. Deixando a base pronta para análise
+
+## Introdução ao Aprendizado de Máquina (Machine Learning) no R
+1. Noção de Machine Learning
+2. Aprendizado supervisionado vs aprendizado não supervisionado
+3. Overfitting vs underfitting
+4. Regularização
+5. Noção de entropia
+6. Regressão logística
+7. Árvores de decisão
+8. Floresta aleatória
+9. Boosting: Adaboost, Gradient boosting, Extreme Boosting
+10. Outros algorítimos: SVM, naive bayes, knn
+
+
+## Rodando modelos de predição das decisões judiciais
+1. Dividir para conquistar: criando as bases de
+treinamento e teste
+2. Estabelecendo hiperparâmetros
+3. Validação cruzada
+4. Rodando o modelo com regressão logística 
+5. Rodando o modelo com Floresta aleatória
+6. Rodando o modelo com boosting
+7. Calibrando os modelos
+
+## Avaliando o desempenho dos modelos rodados
+1. Comparando os modelos
+2. Verificando as métricas de desempenho de cada modelo:
+matriz de confusão, acurácia, senstividade, especificidade,
+3. Gráfico de Kolomogorov Smirnov
+4. Área sob a curva: AUC-ROC
+5. Coeficiente de GINI
+
+## Realizando predições
+1. Aplicando a modelo sobre a base teste
+2. Predizendo valores individuais
+3. Interpretando as probabilidades
+
+## Material utilizado no curso
+
+Além do software gratuito e de seu IDE RStudio, o palestrante oferecerá material de estudo e de  exercícios.
+
+
+
+# Duração do curso
+
+O curso durará no mínimo 40 horas, podendo chegar a 45 horas, a depender do andamento na cobertura do programa.
+
+
+# Custos
+
+Definir
+
